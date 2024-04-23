@@ -11,8 +11,8 @@ git clone https://git.suckless.org/dmenu
 git clone https://git.suckless.org/st
 
 
-# Install Suckless Dependancies
-sudo nala install xorg
+# Install Suckless Dependancies and build tools
+sudo nala install xorg make gcc libx11-dev libxft-dev libxinerama-dev
 
 
 # Make Suckless stuff
@@ -51,7 +51,7 @@ sudo nala install librewolf -y
 
 
 # Install text editors
-sudo nala install micro vscode
+sudo nala install micro
 
 
 # Configure Audio
