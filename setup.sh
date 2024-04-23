@@ -54,4 +54,7 @@ sudo nala install librewolf -y
 sudo nala install micro
 
 
-# Configure Audio
+# Setup Audio
+sudo nala install pipewire pipewire-alsa pipewire-jack pipewire-audio wireplumber pipewire-media-session pulseaudio-utils
+systemctl --user --now enable wireplumber.service
+# reboot
