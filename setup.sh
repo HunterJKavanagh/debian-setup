@@ -54,6 +54,13 @@ sudo nala install librewolf -y
 sudo nala install micro
 
 
+# Flatpak
+sudo nala install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub io.github.hrkfdn.ncspot
+flatpak install flathub com.discordapp.Discord #not working?
+
+
 # Setup Audio
 sudo nala install pipewire pipewire-alsa pipewire-jack pipewire-audio wireplumber pipewire-media-session pulseaudio-utils
 systemctl --user --now enable wireplumber.service
